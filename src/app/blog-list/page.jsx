@@ -9,7 +9,7 @@ import { ParallaxProvider } from "react-scroll-parallax";
 import AnimatedCursor from "react-animated-cursor";
 import AOS from "aos";
 import Breadcrumb from "@/components/Breadcrumb";
-import Bloglists from "@/components/BloglistS";
+import Bloglists from "@/components/Bloglists";
 const Index = () => {
   useEffect(() => {
     AOS.init({
