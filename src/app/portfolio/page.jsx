@@ -23,7 +23,6 @@ const Index = () => {
   return (
     <>
       <ParallaxProvider>
-        <Switcher />
         <Preloader />
         <Header />
         <Breadcrumb title={"Portfolio"} pgtitle={"Portfolio"} />

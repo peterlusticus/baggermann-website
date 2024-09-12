@@ -29,7 +29,6 @@ const Home = () => {
   return (
     <>
       <ParallaxProvider>
-        <Switcher />
         <Preloader />
         <Header />
         <Hero />
