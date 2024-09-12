@@ -1,0 +1,31 @@
+{
+  "name": "khalif",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "flowbite-react": "^0.9.0",
+    "gsap": "^3.12.5",
+    "next": "14.2.4",
+    "react": "^18",
+    "react-18-image-lightbox": "^5.1.4",
+    "react-animated-cursor": "^2.11.2",
+    "react-countup": "^6.5.3",
+    "react-dom": "^18",
+    "react-modal-video": "^2.0.2",
+    "react-parallax-tilt": "^1.7.228",
+    "react-scroll-parallax": "^3.4.5",
+    "sharp": "^0.33.4",
+    "swiper": "^11.1.4"
+  },
+  "devDependencies": {
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
