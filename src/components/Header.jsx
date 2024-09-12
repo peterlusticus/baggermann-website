@@ -99,7 +99,7 @@ const Header = () => {
                   key={i}
                 >
                   <Link
-                    className="text-[#111111] block text-2xl font-semibold p-[10px] transition-all duration-[0.3s] ease-linear leading-tight font-antonio capitalize group-hover:text-[#ff5100]"
+                    className="text-[#111111] block text-4xl font-semibold p-[10px] transition-all duration-[0.3s] ease-linear leading-tight font-antonio capitalize group-hover:text-[#ff5100]"
                     href={item.link}
                   >
                     {item.title}
