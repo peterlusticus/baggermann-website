@@ -145,7 +145,7 @@ const Header = () => {
             <div className="grid grid-cols-12 gap-x-6">
               <div className="col-span-12">
                 <div
-                  className={`khalif-main-manu-content bg-[#44444433] rounded-[70px] py-0 px-[50px] h-[100px] ${sticky ? "sticky" : ""
+                  className={`khalif-main-manu-content bg-[#44444433] py-0 md:px-[50px] h-[100px] ${sticky ? "sticky" : ""
                     }`}
                 >
                   <div className="header-logo py-5 px-0 inline-block float-left">
