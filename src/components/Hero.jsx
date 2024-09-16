@@ -7,11 +7,11 @@ import bgimg from "../../public/img/hero/1.jpg";
 
 const HeroData = {
   title: "BAGGERMANN",
-  title2: "<h1>wo ein bagger <br>ist, ist auch  <br> ein weg</h1>",
+  title2: "<h1>wo ein <span class='text-[#d8c49f]'> bagger </span><br>ist, ist auch  <br> ein <span class='text-[#d8c49f]'> weg </span></h1>",
   brief:
     "Sie benötigen einen erfahrenen Partner für Ihre Erdarbeiten? Ich biete Ihnen flexible Lösungen für Projekte jeder Größe. Mit meinem Spezialequipment meistere ich auch schwierige Geländebedingungen. Ob Privatgarten oder Gewerbeprojekt – ich setze Ihre Vorstellungen präzise um.",
   btntext: "Call me",
-  btnlink: "#tel:+4915731797137",
+  btnlink: "tel:+4915731797137",
   bgimg: bgimg,
   social: [
     {
@@ -35,7 +35,7 @@ const Hero = () => {
         className="khalif-hero-wrape hero-bg bg-center bg-cover relative min-h-[100vh] bg-[#1a2b3c] bg-no-repeat z-[1] before:content-[''] before:absolute before:left-0 before:top-0 before:right-0 before:bottom-0 before:bg-[#000000cc] before:-z-[1]"
         style={{ backgroundImage: `url(${HeroData.bgimg.src})` }}
       >
-        <div className="hero-content py-[250px] px-0">
+        <div className="hero-content pt-[250px] pb-[100px] px-0">
           <div className="container">
             <div className="grid grid-cols-12 gap-x-6 items-center">
               <div className="xl:col-start-3 xl:col-span-10 lg:col-start-2 lg:col-span-10 md:col-span-12 sm:col-span-12">

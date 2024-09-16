@@ -26,7 +26,7 @@ const HeaderData = {
       link: "/services",
     },
     {
-      title: "contact",
+      title: "Kontakt",
       link: "/contact",
     },
   ],
