@@ -18,16 +18,12 @@ const HeaderData = {
       link: "/",
     },
     {
-      title: "about me",
+      title: "Über mich",
       link: "/about",
     },
     {
       title: "services",
       link: "/services",
-    },
-    {
-      title: "reviews",
-      link: "/reviews",
     },
     {
       title: "contact",
@@ -99,18 +95,18 @@ const Header = () => {
                   key={i}
                 >
                   <Link
-                    className="text-[#111111] block text-4xl font-semibold p-[10px] transition-all duration-[0.3s] ease-linear leading-tight font-antonio capitalize group-hover:text-[#ff5100]"
+                    className="text-[#111111] block text-4xl font-semibold p-[10px] transition-all duration-[0.3s] ease-linear leading-tight font-antonio capitalize group-hover:text-[#d8c49f]"
                     href={item.link}
                   >
                     {item.title}
                     {item.submenu && <i className="fa fa-angle-down"></i>}
                   </Link>
                   {item.submenu && (
-                    <ul className="sub-menu text-left bg-white border-t-[3px] border-solid border-t-[#ff5100] shadow-[0_6px_12px_rgba(0,0,0,0.176)] left-0 right-0 opacity-0 absolute top-full transition-all duration-[0.4s] ease-out invisible z-[9] origin-top scale-y-0 group-hover:opacity-[1] group-hover:visible group-hover:scale-y-[1]">
+                    <ul className="sub-menu text-left bg-white border-t-[3px] border-solid border-t-[#d8c49f] shadow-[0_6px_12px_rgba(0,0,0,0.176)] left-0 right-0 opacity-0 absolute top-full transition-all duration-[0.4s] ease-out invisible z-[9] origin-top scale-y-0 group-hover:opacity-[1] group-hover:visible group-hover:scale-y-[1]">
                       {item.submenu.map((item, i) => (
                         <li className="block relative m-0" key={i}>
                           <Link
-                            className="text-[#666666] text-[15px] font-semibold m-0 py-[13px] px-5 capitalize block font-antonio hover:text-white hover:bg-[#ff5100]"
+                            className="text-[#666666] text-[15px] font-semibold m-0 py-[13px] px-5 capitalize block font-antonio hover:text-white hover:bg-[#d8c49f]"
                             href={item.link}
                           >
                             {item.title}
@@ -170,7 +166,7 @@ const Header = () => {
                     <li className="m-0">
                       <Link
                         href={HeaderData.btnlink}
-                        className="magic-hover magic-hover__square text-sm font-semibold uppercase font-antonio text-white hover:text-[#ff5100]"
+                        className="magic-hover magic-hover__square text-sm font-semibold uppercase font-antonio text-white hover:text-[#d8c49f]"
                       >
                         {HeaderData.btntext}
                       </Link>

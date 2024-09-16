@@ -12,7 +12,7 @@ import logo5 from "../../public/img/brand/5.png";
 
 const BrandData = {
   title: "Baggerarbeiten",
-  title2: "Eurocomach Bagger",
+  title2: "Spezialbagger",
   BrandList: [
     
   ],
@@ -20,7 +20,7 @@ const BrandData = {
 const Brand = () => {
   return (
     <>
-      <div className="khalif-brand-wrape py-[100px]">
+      <div className="khalif-brand-wrape pt-[50px] pb-[10px]">
         <div className="container">
           <div className="col-span-12">
             <div className="section-title-wrape text-center uppercase relative mb-20">

@@ -70,7 +70,7 @@ const ProgressScroll = () => {
       >
         <path
           ref={progressPathRef}
-          className="fill-none box-border stroke-[4] transition-all duration-[200ms] ease-linear stroke-[#ff5100]"
+          className="fill-none box-border stroke-[4] transition-all duration-[200ms] ease-linear stroke-[#d8c49f]"
           d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
         ></path>
       </svg>

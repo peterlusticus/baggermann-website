@@ -168,7 +168,7 @@ const Team = () => {
                         <div class="team-title-desig-wrape absolute left-0 right-0 bottom-[25px] transition-all duration-[0.3s]">
                           <div class="team-popup-wrape opacity-0 invisible transition-all duration-[0.5s]">
                             <div
-                              class="popup-team hover:bg-[#ff5100] hover:border-white w-[70px] h-[70px] leading-[80px] text-center border-[1px] border-solid border-[#595959] rounded-[50%] inline-block cursor-pointer"
+                              class="popup-team hover:bg-[#d8c49f] hover:border-white w-[70px] h-[70px] leading-[80px] text-center border-[1px] border-solid border-[#595959] rounded-[50%] inline-block cursor-pointer"
                               onClick={() => handleOpenLightbox(i)}
                             >
                               <svg
@@ -200,7 +200,7 @@ const Team = () => {
                             key={i}
                           >
                             <Link
-                              class="group-hover:bg-[#ff5100] group-hover:border-[#ff5100] text-lg w-[50px] h-[50px] text-center leading-[45px] border-[1px] border-solid border-[#595959] rounded-[50%] text-white block transition-all duration-[0.3s]"
+                              class="group-hover:bg-[#d8c49f] group-hover:border-[#d8c49f] text-lg w-[50px] h-[50px] text-center leading-[45px] border-[1px] border-solid border-[#595959] rounded-[50%] text-white block transition-all duration-[0.3s]"
                               href={items.link}
                             >
                               <i class={items.icon}></i>

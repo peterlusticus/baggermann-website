@@ -13,8 +13,8 @@ const CounterData = {
       delay: "100",
     },
     {
-      title: "Experience",
-      number: "18",
+      title: "Erfahrung",
+      number: "4",
       symbol: "+",
       delay: "300",
     },
@@ -51,7 +51,7 @@ const Counter = () => {
                   data-aos="fade-right"
                   data-aos-delay={item.delay}
                 >
-                  <div class="single-count-box after:content-[''] after:absolute after:left-0 after:top-0 after:right-0 after:bottom-0 after:bg-[#111111] after:-z-[1] after:-skew-x-6 block relative bg-[#ff5100] py-[50px] px-0 skew-x-6 z-[1] md:mt-0 sm:mt-0">
+                  <div class="single-count-box after:content-[''] after:absolute after:left-0 after:top-0 after:right-0 after:bottom-0 after:bg-[#111111] after:-z-[1] after:-skew-x-6 block relative bg-[#d8c49f] py-[50px] px-0 skew-x-6 z-[1] md:mt-0 sm:mt-0">
                     <h3 class="text-[115px] font-semibold uppercase -skew-x-6">
                       <CountUp start={0} end={item.number} delay={0}>
                         {({ countUpRef }) => (

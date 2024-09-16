@@ -113,11 +113,11 @@ const Blogdetails = () => {
                   </h3>
                   <p>{BlogdetailsData.brief2}</p>
                   <p>{BlogdetailsData.brief3}</p>
-                  <blockquote class="block-quote bg-[#070707] border-l-[6px] border-solid border-l-[#ff5100] !py-10 !px-[35px] rounded-md relative overflow-hidden my-10 mx-[30px] z-[1] before:content-['\f10d'] before:absolute before:top-2/4 before:left-2/4 before:-translate-x-1/2 before:-translate-y-1/2 before:font-Fontawesome before:text-[#595959] before:text-[150px] before:leading-none before:opacity-[0.3] before:-z-[1]">
+                  <blockquote class="block-quote bg-[#070707] border-l-[6px] border-solid border-l-[#d8c49f] !py-10 !px-[35px] rounded-md relative overflow-hidden my-10 mx-[30px] z-[1] before:content-['\f10d'] before:absolute before:top-2/4 before:left-2/4 before:-translate-x-1/2 before:-translate-y-1/2 before:font-Fontawesome before:text-[#595959] before:text-[150px] before:leading-none before:opacity-[0.3] before:-z-[1]">
                     <p class="text-white font-medium xl:leading-[50px] xl:text-[30px] md:text-xl md:leading-9 sm:text-xl sm:leading-9">
                       {BlogdetailsData.blockquote}
                     </p> 
-                    <cite class="relative text-xs font-medium capitalize block text-white tracking-[5px] pl-[15px] mt-[25px] font-antonio before:absolute before:content-[''] before:bottom-0 before:h-[2px] before:bg-[#ff5100] before:top-2/4 before:left-0 before:-translate-y-[50%] before:w-[10px] before:my-0 before:mx-auto">
+                    <cite class="relative text-xs font-medium capitalize block text-white tracking-[5px] pl-[15px] mt-[25px] font-antonio before:absolute before:content-[''] before:bottom-0 before:h-[2px] before:bg-[#d8c49f] before:top-2/4 before:left-0 before:-translate-y-[50%] before:w-[10px] before:my-0 before:mx-auto">
                       {BlogdetailsData.blockquoteauthor}
                     </cite>
                   </blockquote>
@@ -125,10 +125,10 @@ const Blogdetails = () => {
                   <p>{BlogdetailsData.brief5}</p>
                 </div>
                 <ul class="post-details-info list-none flex items-center justify-between border-t-[1px] border-t-[#585858] py-5 px-0 border-b-[1px] border-solid border-b-[#585858] my-5 mx-0">
-                  <li class="blog-date text-lg font-semibold m-0 text-[#888888] capitalize transition-all duration-[0.3s] hover:text-[#ff5100] hover:cursor-pointer group">
+                  <li class="blog-date text-lg font-semibold m-0 text-[#888888] capitalize transition-all duration-[0.3s] hover:text-[#d8c49f] hover:cursor-pointer group">
                     {BlogdetailsData.date}
                   </li>
-                  <li class="blog-admin text-lg font-semibold m-0 text-[#888888] capitalize transition-all duration-[0.3s] hover:text-[#ff5100] hover:cursor-pointer group">
+                  <li class="blog-admin text-lg font-semibold m-0 text-[#888888] capitalize transition-all duration-[0.3s] hover:text-[#d8c49f] hover:cursor-pointer group">
                     by:
                     <a
                       class="group-hover:cursor-pointer"
@@ -145,7 +145,7 @@ const Blogdetails = () => {
                   </span>
                   {BlogdetailsData.TagsList.map((item, i) => (
                     <Link
-                      class=" text-base leading-6 text-white py-[15px] px-5 border-[1px] border-solid border-[#595959] inline-block transition-all duration-[0.2s] capitalize rounded-[5px] mr-[5px] mb-[10px] mt-0 ml-0 font-jost font-semibold hover:text- whitehover:bg-[#ff5100] hover:border-[#ff5100] hover:rounded-[10px] hover:text-white"
+                      class=" text-base leading-6 text-white py-[15px] px-5 border-[1px] border-solid border-[#595959] inline-block transition-all duration-[0.2s] capitalize rounded-[5px] mr-[5px] mb-[10px] mt-0 ml-0 font-jost font-semibold hover:text- whitehover:bg-[#d8c49f] hover:border-[#d8c49f] hover:rounded-[10px] hover:text-white"
                       href={item.link}
                       key={i}
                     >
@@ -163,11 +163,11 @@ const Blogdetails = () => {
                     <ul class="p-0 m-0 list-none">
                       {BlogdetailsData.CommentList.map((item, i) => (
                         <li key={i}>
-                          <div class="comments-box mb-[30px] bg-[#070707] transition-all duration-[0.3s] flex items-center rounded-[20px] py-10 px-5 border-b-[1px] border-solid border-b-[#595959] hover:border-[#ff5100]">
+                          <div class="comments-box mb-[30px] bg-[#070707] transition-all duration-[0.3s] flex items-center rounded-[20px] py-10 px-5 border-b-[1px] border-solid border-b-[#595959] hover:border-[#d8c49f]">
                             <div class="comments-avatar w-[130px] h-[130px]">
                                
                               <Image
-                                class="rounded-[50%] border-[1px] border-solid border-[#ff5100] p-[6px]"
+                                class="rounded-[50%] border-[1px] border-solid border-[#d8c49f] p-[6px]"
                                 src={item.img}
                                 alt=""
                               />
@@ -182,7 +182,7 @@ const Blogdetails = () => {
                                 </span>
                               </div>
                               <a
-                                class="replay-btn inline-block text-lg font-semibold capitalize text-[#888888] float-right -mt-[6px] font-antonio hover:text-[#ff5100]"
+                                class="replay-btn inline-block text-lg font-semibold capitalize text-[#888888] float-right -mt-[6px] font-antonio hover:text-[#d8c49f]"
                                 href={item.replaylink}
                               >
                                 {item.replay}
@@ -206,7 +206,7 @@ const Blogdetails = () => {
                       <div class="col-span-12">
                         <textarea
                           name="comments"
-                          class="form-control h-[133px] shadow-none text-white mb-[30px] bg-[#070707] border-[1px] border-solid border-[#595959] py-[15px] px-5 transition-all duration-[0.3s] rounded-none w-full  focus:shadow-[0px_10px_14px_0px_rgba(12,0,46,0.06)] focus:outline-none focus:border-[1px] focus:border-solid focus:border-[#ff5100]"
+                          class="form-control h-[133px] shadow-none text-white mb-[30px] bg-[#070707] border-[1px] border-solid border-[#595959] py-[15px] px-5 transition-all duration-[0.3s] rounded-none w-full  focus:shadow-[0px_10px_14px_0px_rgba(12,0,46,0.06)] focus:outline-none focus:border-[1px] focus:border-solid focus:border-[#d8c49f]"
                           cols="30"
                           rows="10"
                           placeholder="Message"
@@ -215,14 +215,14 @@ const Blogdetails = () => {
                       <div class="col-span-6">
                         <input
                           type="text"
-                          class="form-control shadow-none text-white h-[70px] mb-[30px] bg-[#070707] border-[1px] border-solid border-[#595959] transition-all duration-[0.3s] py-[5px] px-5 rounded-none w-full  focus:shadow-[0px_10px_14px_0px_rgba(12,0,46,0.06)] focus:outline-none focus:border-[1px] focus:border-solid focus:border-[#ff5100]"
+                          class="form-control shadow-none text-white h-[70px] mb-[30px] bg-[#070707] border-[1px] border-solid border-[#595959] transition-all duration-[0.3s] py-[5px] px-5 rounded-none w-full  focus:shadow-[0px_10px_14px_0px_rgba(12,0,46,0.06)] focus:outline-none focus:border-[1px] focus:border-solid focus:border-[#d8c49f]"
                           placeholder="Name *"
                         />
                       </div>
                       <div class="col-span-6">
                         <input
                           type="email"
-                          class="form-control shadow-none text-white h-[70px] mb-[30px] bg-[#070707] border-[1px] border-solid border-[#595959] transition-all duration-[0.3s] py-[5px] px-5 rounded-none w-full  focus:shadow-[0px_10px_14px_0px_rgba(12,0,46,0.06)] focus:outline-none focus:border-[1px] focus:border-solid focus:border-[#ff5100]"
+                          class="form-control shadow-none text-white h-[70px] mb-[30px] bg-[#070707] border-[1px] border-solid border-[#595959] transition-all duration-[0.3s] py-[5px] px-5 rounded-none w-full  focus:shadow-[0px_10px_14px_0px_rgba(12,0,46,0.06)] focus:outline-none focus:border-[1px] focus:border-solid focus:border-[#d8c49f]"
                           placeholder="E-mail *"
                         />
                       </div>

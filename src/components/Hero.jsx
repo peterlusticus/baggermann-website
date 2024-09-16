@@ -7,11 +7,11 @@ import bgimg from "../../public/img/hero/1.jpg";
 
 const HeroData = {
   title: "BAGGERMANN",
-  title2: "<h1>baggern bis <br> der arzt <br> kommt</h1>",
+  title2: "<h1>wo ein bagger <br>ist, ist auch  <br> ein weg</h1>",
   brief:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna are iqua. Ut enim ad minim veniam, quis nostrud exercitation is laboris nisi ut aliquip ex ea commodo consequat.",
-  btntext: "learn more",
-  btnlink: "#",
+    "Sie benötigen einen erfahrenen Partner für Ihre Erdarbeiten? Ich biete Ihnen flexible Lösungen für Projekte jeder Größe. Mit meinem Spezialequipment meistere ich auch schwierige Geländebedingungen. Ob Privatgarten oder Gewerbeprojekt – ich setze Ihre Vorstellungen präzise um.",
+  btntext: "Call me",
+  btnlink: "#tel:+4915731797137",
   bgimg: bgimg,
   social: [
     {
@@ -43,7 +43,7 @@ const Hero = () => {
                   {HeroData.social.map((item, i) => (
                     <li className="inline-block m-0 group" key={i}>
                       <Link
-                        className="text-xl text-white capitalize block pr-[50px] font-jost relative after:content-[''] after:absolute after:w-[30px] after:right-[10px] after:top-2/4 after:translate-y-[50%] after:bg-white after:h-[1px] group-hover:text-[#ff5100]"
+                        className="text-xl text-white capitalize block pr-[50px] font-jost relative after:content-[''] after:absolute after:w-[30px] after:right-[10px] after:top-2/4 after:translate-y-[50%] after:bg-white after:h-[1px] group-hover:text-[#d8c49f]"
                         href={item.link}
                       >
                         {item.title}
@@ -66,7 +66,7 @@ const Hero = () => {
                     <Tilt className="inline-block" scale={1.1}>
                       <Link
                         href={HeroData.btnlink}
-                        className="btn-2 text-center uppercase bgc-3 btn-tilt"
+                        className="btn-2 text-center uppercase bgc-3 btn-tilt text-[30px] font-bold"
                       >
                         <span>
                           <svg

@@ -9,7 +9,7 @@ import aboutimg4 from "../../public/img/about/4.jpg";
 import aboutimg5 from "../../public/img/about/5.png";
 const AboutData = {
   bigtitle:
-    'we run agency <span class="text-[#ff5100]">smartly</span> with our <span class="text-[#ff5100]">team</span> member. ',
+    'we run agency <span class="text-[#d8c49f]">smartly</span> with our <span class="text-[#d8c49f]">team</span> member. ',
   brief:
     "Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   title: "khalif",
@@ -52,16 +52,8 @@ const About2 = () => {
           <div class="grid grid-cols-12 gap-x-6">
             <div class="xl:col-span-7 lg:col-span-6 md:col-span-12 sm:col-span-12">
               <div class="about2-left-img-wrape flex items-center sm:flex-col-reverse">
-                <Parallax
-                  class="about2-img1 position-relative -mb-[250px] sm:mb-[50px]"
-                  translateY={["-50px", "0px"]}
-                >
-                  <Image src={AboutData.aboutimg3} alt="about-img" />
-                  <div class="about2-style-title text-uppercase text-[120px] leading-[100px] stroke-[1px] stroke-[#595959] opacity-[0.50] text-transparent font-antonio font-semibold absolute -left-[50%] top-[18%] -rotate-90 -z-[1] animate-[leftright_3s_infinite_alternate]">
-                    {AboutData.title}
-                  </div>
-                </Parallax>
-                <div class="about2-img2 position-relative -ml-[100px] -z-[1] sm:ml-0">
+                
+                <div class="about2-img2 position-relative -ml-[100px] -z-[1] sm:ml-0 sm:p-20">
                   <Image src={AboutData.aboutimg4} alt="about-img" />
                   <Parallax
                     class="about2-style-shape absolute top-0 -left-5 -z-[1]"
@@ -76,7 +68,7 @@ const About2 = () => {
                   >
                     experience
                     <h3 class="font-semibold font-jost text-[45px]">
-                      <span class="font-bold text-[#ff5100]">
+                      <span class="font-bold text-[#d8c49f]">
                         <CountUp start={0} end={AboutData.count} delay={0}>
                           {({ countUpRef }) => (
                             <b className="counter" ref={countUpRef} />

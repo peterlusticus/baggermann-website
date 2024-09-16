@@ -182,58 +182,6 @@ const HoverImgFx1 = ({ imgSrc, children }) => {
 const Awards = () => {
   return (
     <>
-      <div className="khalif-awards-wrape py-[100px]">
-        <div className="container">
-          <div className="grid grid-cols-12 gap-x-6">
-            <div className="col-span-12">
-              <div className="section-title-wrape uppercase text-center relative mb-20">
-                <h3 className="my-stroke2 font-bold uppercase leading-[49px] text-[40px]">
-                  {AwardsData.title}
-                </h3>
-                <h4 className="uppercase font-medium text-xl mb-0">
-                  {AwardsData.title2}
-                </h4>
-              </div>
-              <div className="all-awards-content">
-                {AwardsData.AwardsList.map((item, i) => (
-                  <HoverImgFx1
-                    data-fx="1"
-                    data-aos="fade-up"
-                    data-aos-delay={item.anidelay}
-                    key={i}
-                    imgSrc={item.awrdimg.src}
-                  >
-                    <div className="single-awards-list group block__link bg-[#070707] border-[1px] border-solid border-[#595959] flex items-center gap-[26px] transition-all duration-[0.3s] mb-[30px] pr-5 py-0 pl-0 h-[115px] sm:gap-[30px] sm:flex sm:flex-col sm:p-5 sm:h-auto hover:border-[#ff5100]">
-                      <div className="awards-number mr-[15px] bg-white text-center relative font-antonio transition-all duration-[0.3s] text-[#111111] text-[75px] font-semibold w-[8%] h-full leading-[93px] xl:w-[8%] lg:w-[8%] md:w-fit sm:w-[50%] after:content-[''] after:absolute after:w-0 after:h-0 after:bottom-0 after:top-0 after:duration-[0.3s] after:left-full after:border-l-0 after:border-r-[10px] after:border-t-[114px] after:border-solid after:border-t-white after:border-x-transparent after:sm:border-t-[98px] group-hover:bg-[#ff5100] group-hover:text-white group-hover:after:border-t-[#ff5100] group-hover:after:border-r-[24px] group-hover:after:border-solid group-hover:after:border-r-transparent">
-                        {item.number}
-                      </div>
-                      <div className="awards-web text-xl font-semibold font-jost text-[#595959] w-[15%] transition-all duration-[0.3s] group-hover:text-[#ff5100] sm:w-[85%] sm:text-center">
-                        {item.web}
-                      </div>
-                      <div className="awards-title font-semibold font-antonio capitalize text-white xl:text-4xl xl:w-[36%] lg:text-4xl lg:w-[36%] md:text-[22px] md:w-[30%] sm:text-[22px] sm:w-[85%] sm:text-center">
-                        {item.title}
-                      </div>
-                      <div className="awards-para w-[40%] sm:w-[85%] xl:text-left lg:text-left md:text-left sm:text-center">
-                        <p className="m-0 xl:text-[18px] xl:leading-10 lg:text-[18px] lg:leading-10 md:text-base md:leading-5 sm:text-xl sm:leading-[30px]">
-                          {item.brief}
-                        </p>
-                      </div>
-                      <div className="awards-link">
-                        <Link
-                          className="w-[70px] h-[70px] leading-[80px] text-center border-[1px] border-solid border-[#595959] rounded-[50%] inline-block group-hover:bg-[#ff5100] group-hover:text-white"
-                          href={item.link}
-                          target="_blank"
-                          dangerouslySetInnerHTML={{ __html: item.icon }}
-                        ></Link>
-                      </div>
-                    </div>
-                  </HoverImgFx1>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </>
   );
 };

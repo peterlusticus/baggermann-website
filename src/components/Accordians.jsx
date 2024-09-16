@@ -9,7 +9,7 @@ import img2 from "../../public/img/accordion/2.png";
 const AccordianData = {
   img1: img1,
   img2: img2,
-  title: '<span class="text-[#ff5100]">some</span> q&a section here',
+  title: '<span class="text-[#d8c49f]">some</span> q&a section here',
   AccordionList: [
     {
       title: "how to buy this?",

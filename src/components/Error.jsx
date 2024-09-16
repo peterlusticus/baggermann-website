@@ -17,7 +17,7 @@ const Error = () => {
           <div class="grid grid-cols-12 gap-x-6">
             <div class="col-span-12">
               <div class="khalif-content-box text-center">
-                <h2 class="font-bold leading-none text-[#ff5100] mb-10 text-[200px]">
+                <h2 class="font-bold leading-none text-[#d8c49f] mb-10 text-[200px]">
                   {ErrorData.title}
                 </h2>
                 <h3 class="font-bold capitalize text-5xl mt-[10px] mx-0 mb-[60px]">

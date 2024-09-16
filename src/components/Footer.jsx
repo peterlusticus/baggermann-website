@@ -4,7 +4,7 @@ import { Parallax } from "react-scroll-parallax";
 
 const FooterData = {
   newstitle:
-    'get in <span class="my-stroke2 text-transparent stroke-[1px] stroke-[#595959]">touch</span>',
+    'Kontakt <span class="my-stroke2 text-transparent stroke-[1px] stroke-[#595959]">mail</span>',
   copyright: "© All Rights Reserved.",
   sociallist: [
     {
@@ -53,15 +53,15 @@ const FooterData = {
   contactlist: [
     {
       title: "Email",
-      info: "email@gmail.com",
+      info: "paul@baggermann-erfurt.de",
     },
     {
-      title: "Phone",
-      info: "+012 345 6789",
+      title: "Telefon",
+      info: "+4915731797137",
     },
     {
-      title: "Address",
-      info: "B.K, Road Street house44",
+      title: "Addresse",
+      info: "Anton Lucius Straße 20, 99085 Erfurt",
     },
   ],
 };
@@ -73,11 +73,11 @@ const Footer = () => {
         <div className="khalif-footer-style-shape">
           <Parallax
             translateY={["-50px", "0px"]}
-            className="footer-shape-1 absolute h-[150px] rounded-[50%] bg-[#ff5100] top-[18%] w-[150px] right-[10%] opacity-[0.10]"
+            className="footer-shape-1 absolute h-[150px] rounded-[50%] bg-[#d8c49f] top-[18%] w-[150px] right-[10%] opacity-[0.10]"
           ></Parallax>
           <Parallax
             translateX={["-70px", "0px"]}
-            className="footer-shape-2 absolute w-[220px] h-[220px] rounded-[50%] bg-[#ff5100] top-[35%] right-[4%] opacity-[0.40]"
+            className="footer-shape-2 absolute w-[220px] h-[220px] rounded-[50%] bg-[#d8c49f] top-[35%] right-[4%] opacity-[0.40]"
           ></Parallax>
         </div>
         <div className="container">
@@ -86,7 +86,7 @@ const Footer = () => {
               <div className="khalif-footer-single-widget mb-[50px]">
                 <div className="khalif-subscribe-content">
                   <h2
-                    className="text-[90px] font-bold uppercase mb-[30px] relative z-[1] md:text-[60px] after:content-[''] after:absolute after:right-0 after:bottom-0 after:bg-[#ff5100] after:-z-[1] after:left-[26%] after:-top-[120px] after:w-[84px] after:h-[240px] after:skew-x-[-15deg] after:xl:h-[225px] after:lg:h-[225px] after:md:h-[225px] after:sm:h-[263px]"
+                    className="text-[90px] font-bold uppercase mb-[30px] relative z-[1] md:text-[60px] after:content-[''] after:absolute after:right-0 after:bottom-0 after:bg-[#d8c49f] after:-z-[1] after:left-[26%] after:-top-[120px] after:w-[84px] after:h-[240px] after:skew-x-[-15deg] after:xl:h-[225px] after:lg:h-[225px] after:md:h-[225px] after:sm:h-[263px]"
                     dangerouslySetInnerHTML={{ __html: FooterData.newstitle }}
                   ></h2>
                   <form className="khalif-subscribe-form relative" action="#">
@@ -94,7 +94,7 @@ const Footer = () => {
                       className="w-full h-[70px] bg-transparent rounded-none text-[18px] border-[1px] border-solid border-[#595959] py-0 px-5 text-[#30323d] focus:!ring-[none] focus:!border-[#595959] focus:border-solid focus:!outline-offset-0  focus:outline-0"
                       type="email"
                       name="email"
-                      placeholder="Type Your Email here"
+                      placeholder="Gib deine Mailadresse hier ein"
                     />
                     <button
                       type="submit"
@@ -118,24 +118,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="xl:col-start-8 xl:col-span-2 lg:col-start-7 lg:col-span-2 md:col-span-3 sm:col-span-12">
-              <div className="khalif-footer-single-widget mb-[50px]">
-                <div className="widget_nav_menu">
-                  <ul className="menu m-0 p-0 list-none">
-                    {FooterData.footernavlist.map((item, i) => (
-                      <li className="mb-2 pb-[7px]" key={i}>
-                        <Link
-                          className="font-antonio text-white capitalize font-normal text-[18px] !leading-[1.75rem] hover:text-[#ff5100] hover:font-antonio hover:ml-3"
-                          href={item.link}
-                        >
-                          {item.title}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            </div>
+            
             <div className="xl:col-start-11 xl:col-span-2 lg:col-start-10 lg:col-span-2 md:col-span-3 sm:col-span-12">
               <div className="khalif-footer-single-widget pb-50">
                 <div className="widget-footer-contact-info">
@@ -145,7 +128,7 @@ const Footer = () => {
                         className="mb-10 text-sm font-normal text-[#e1e1e1] font-jost"
                         key={i}
                       >
-                        <span className="block font-semibold capitalize text-white relative mb-1 pl-2 before:content-['-'] before:absolute before:left-0 before:top-0 before:bottom-0 before:text-[#ff5100]">
+                        <span className="block font-semibold capitalize text-white relative mb-1 pl-2 before:content-['-'] before:absolute before:left-0 before:top-0 before:bottom-0 before:text-[#d8c49f]">
                           {item.title}
                         </span>
                         {item.info}
@@ -172,11 +155,11 @@ const Footer = () => {
                         key={i}
                       >
                         <Link
-                          className="text-white text-[18px] hover:text-[#ff5100]"
+                          className="text-white text-[18px] hover:text-[#d8c49f]"
                           href={item.link}
                         >
                           <i
-                            className={`${item.icon} group-hover:bg-[#111111] group-hover:text-[#ff5100] text-[18px] w-[50px] h-[50px] text-center !leading-[50px] border-[1px] border-solid border-[#595959] rounded-[50%] text-white`}
+                            className={`${item.icon} group-hover:bg-[#111111] group-hover:text-[#d8c49f] text-[18px] w-[50px] h-[50px] text-center !leading-[50px] border-[1px] border-solid border-[#595959] rounded-[50%] text-white`}
                           ></i>
                         </Link>
                       </li>
