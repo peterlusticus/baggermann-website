@@ -60,7 +60,7 @@ const FooterData = {
       info: "+4915731797137",
     },
     {
-      title: "Addresse",
+      title: "Adresse",
       info: "Anton Lucius Straße 20, 99085 Erfurt",
     },
   ],
