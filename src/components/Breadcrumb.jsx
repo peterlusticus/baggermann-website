@@ -5,7 +5,7 @@ import Link from "next/link";
 const BreadcrumbData = {
   home: "home",
   brief:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+    "Spezialisiert auf kleine bis mittelgroße Projekte mit wo ein feinfühliger Bagger gebraucht wird Zeitnahe Planung und Umsetzung ihres Projektes Unkomplizierter Abtransport von erdaushub oder Grünschnitt mit eigenen Mitteln Häckseln des Schnittguts zum Mulchen auch vor Ort Ob Poolaushub, Nivellierung des Bodens oder Einbau von Zisternenanlagen Gartenarbeiten aller Art Mäharbeiten auf Grünflächen bis 3500qm",
 };
 const Breadcrumb = ({ title, pgtitle }) => {
   return (
