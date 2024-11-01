@@ -4,8 +4,7 @@ import Link from "next/link";
 
 const BreadcrumbData = {
   home: "home",
-  brief:
-    "Spezialisiert auf kleine bis mittelgroße Projekte mit wo ein feinfühliger Bagger gebraucht wird Zeitnahe Planung und Umsetzung ihres Projektes Unkomplizierter Abtransport von erdaushub oder Grünschnitt mit eigenen Mitteln Häckseln des Schnittguts zum Mulchen auch vor Ort Ob Poolaushub, Nivellierung des Bodens oder Einbau von Zisternenanlagen Gartenarbeiten aller Art Mäharbeiten auf Grünflächen bis 3500qm",
+  brief: "Rufen Sie mich an und wir besprechen zeitnah und vor Ort Ihr Vorhaben. Gerne erstelle ich Ihnen ein dazugehöriges Angebot."
 };
 const Breadcrumb = ({ title, pgtitle }) => {
   return (
