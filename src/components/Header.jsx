@@ -4,7 +4,7 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import logo2 from "../../public/img/logo2.png";
-import logo from "../../public/img/logo.png";
+import logo from "../../public/img/logo.svg";
 import Link from "next/link";
 
 const HeaderData = {
