@@ -6,7 +6,7 @@ const BreadcrumbData = {
   home: "home",
   brief: "Rufen Sie mich an und wir besprechen zeitnah und vor Ort Ihr Vorhaben. Gerne erstelle ich Ihnen ein dazugehöriges Angebot."
 };
-const Breadcrumb = ({ title, pgtitle }) => {
+const Breadcrumb = ({ title, pgtitle, brief }) => {
   return (
     <>
       <div
@@ -34,9 +34,9 @@ const Breadcrumb = ({ title, pgtitle }) => {
                     {title}
                   </li>
                 </ul>
-                <p className="text-xl font-semibold leading-10 mt-[70px] mx-0 mb-0">
+                {brief && <p className="text-xl font-semibold leading-10 mt-[70px] mx-0 mb-0">
                   {BreadcrumbData.brief}
-                </p>
+                </p>}
               </div>
             </div>
           </div>

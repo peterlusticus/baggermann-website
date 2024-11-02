@@ -23,7 +23,7 @@ const Index = () => {
       <ParallaxProvider>
         <Preloader />
         <Header />
-        <Breadcrumb title={"Contact"} pgtitle={"Contact"} />
+        <Breadcrumb title={"Contact"} pgtitle={"Contact"} brief={true} />
         <Contacts />
         <Footer />
         <ProgressScroll />

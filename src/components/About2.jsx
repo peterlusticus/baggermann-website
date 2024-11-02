@@ -9,13 +9,13 @@ import aboutimg4 from "../../public/img/about/4.jpg";
 import aboutimg5 from "../../public/img/about/5.png";
 const AboutData = {
   bigtitle:
-    'we run agency <span class="text-[#d8c49f]">smartly</span> with our <span class="text-[#d8c49f]">team</span> member. ',
+    'Von den <span class="text-[#d8c49f]">Alpen</span> nach <span class="text-[#d8c49f]">Thüringen</span>. ',
   brief:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "Mit jahrelanger Erfahrung im Bau und Unterhalt von Ski- und Mountainbike-Strecken in den Schweizer Alpen bringe ich mein Know-how in den nachhaltigen Wegebau in Thüringen ein. Als passionierter Baggerfahrer setze ich Ihre Projekte präzise und zuverlässig um.",
   title: "khalif",
-  title2: "experience",
-  year: "years",
-  count: "18",
+  title2: "",
+  year: "",
+  count: "",
   aboutimg3: aboutimg3,
   aboutimg4: aboutimg4,
   aboutimg5: aboutimg5,
@@ -23,24 +23,24 @@ const AboutData = {
   btnlink: "#",
   AccordionList: [
     {
-      title: "how to buy this?",
+      title: "Die Schweizer Jahre",
+      brief:
+        "Mehrjährige Erfahrung im Bau und Unterhalt von anspruchsvollen Ski- und Mountainbike-Strecken in den Schweizer Alpen.",
+    },
+    {
+      title: "Spezialist für Erdarbeiten",
       brief:
         "is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
     },
     {
-      title: "it is refundable?",
+      title: "Leidenschaft für die Natur",
       brief:
-        "is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
+        "Die Liebe zur Natur und zum Sport hat mich zu meinem Beruf geführt.",
     },
     {
-      title: "can i use free",
+      title: "Expertise im Wegebau",
       brief:
-        "is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
-    },
-    {
-      title: "24 / 7 supports",
-      brief:
-        "is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
+        "Jahrelange Erfahrung im Bau und der Pflege von anspruchsvollen Outdoor-Strecken.",
     },
   ],
 };
@@ -52,7 +52,7 @@ const About2 = () => {
           <div class="grid grid-cols-12 gap-x-6">
             <div class="xl:col-span-7 lg:col-span-6 md:col-span-12 sm:col-span-12">
               <div class="about2-left-img-wrape flex items-center sm:flex-col-reverse">
-                
+
                 <div class="about2-img2 position-relative -ml-[100px] -z-[1] sm:ml-0 sm:p-20">
                   <Image src={AboutData.aboutimg4} alt="about-img" />
                   <Parallax
@@ -66,18 +66,6 @@ const About2 = () => {
                     data-aos="fade-right"
                     data-aos-delay="200"
                   >
-                    experience
-                    <h3 class="font-semibold font-jost text-[45px]">
-                      <span class="font-bold text-[#d8c49f]">
-                        <CountUp start={0} end={AboutData.count} delay={0}>
-                          {({ countUpRef }) => (
-                            <b className="counter" ref={countUpRef} />
-                          )}
-                        </CountUp>
-                        +
-                      </span>
-                      {AboutData.year}
-                    </h3>
                   </div>
                 </div>
               </div>

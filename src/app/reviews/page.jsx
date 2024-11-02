@@ -25,7 +25,7 @@ const Index = () => {
       <ParallaxProvider>
         <Preloader />
         <Header />
-        <Breadcrumb title={"Reviews"} pgtitle={"Reviews"} />
+        <Breadcrumb title={"Reviews"} pgtitle={"Reviews"} brief={true}/>
         <Awards />
         <Accordians />
         <Brand />
