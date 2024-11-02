@@ -27,7 +27,6 @@ const Index = () => {
         <Header />
         <Breadcrumb title={"Portfolio"} pgtitle={"Portfolio"} />
         <Portfolio isHidden={true} />
-        <Accordians />
         <Brand />
         <Footer />
         <ProgressScroll />

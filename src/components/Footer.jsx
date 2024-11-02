@@ -49,7 +49,7 @@ const FooterData = {
     },
     {
       title: "Adresse",
-      info: "Eichendorfstraße 3, 99096 Erfurt",
+      info: "Eichendorffstraße 3, 99096 Erfurt",
     },
   ],
 };

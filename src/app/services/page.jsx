@@ -13,7 +13,6 @@ import Breadcrumb from "@/components/Breadcrumb";
 import Accordians from "@/components/Accordians";
 import Services2 from "@/components/Services2";
 import Video from "@/components/Video";
-import Pricingtable from "@/components/Pricingtable";
 const Index = () => {
   useEffect(() => {
     AOS.init({
