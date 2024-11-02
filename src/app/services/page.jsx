@@ -28,9 +28,6 @@ const Index = () => {
         <Header />
         <Breadcrumb title={"Services"} pgtitle={"Meine Services"} brief={true} />
         <Services2 />
-        <Video />
-        <Accordians />
-        <Brand />
         <Footer />
         <ProgressScroll />
       </ParallaxProvider>
