@@ -30,7 +30,7 @@ const AboutData = {
     {
       title: "Spezialist für Erdarbeiten",
       brief:
-        "is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
+        "Umfangreiche Kenntnisse im Umgang mit verschiedenen Erdmaterialien und Geländebeschaffenheiten.",
     },
     {
       title: "Leidenschaft für die Natur",
