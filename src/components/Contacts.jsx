@@ -78,7 +78,7 @@ const Contacts = () => {
                 <iframe
                   id="khalif-map"
                   className="my-20 w-full h-[400px]"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2512.092502916864!2d11.059162076436575!3d50.977480771697685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a40d4d0325b4ed%3A0x25754c22cec273ae!2sAnton-Lucius-Stra%C3%9Fe%2020%2C%2099085%20Erfurt!5e0!3m2!1sde!2sde!4v1726139962323!5m2!1sde!2sde"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5025.883753092326!2d11.022854076468994!3d50.961778871694435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a472dd4f0e5d19%3A0xffb3441a690c88c4!2sEichendorffstra%C3%9Fe%203%2C%2099096%20Erfurt!5e0!3m2!1sde!2sde!4v1730564056336!5m2!1sde!2sde"
                   allowFullScreen={true}
                 ></iframe>
               </div>
