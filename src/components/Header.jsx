@@ -32,21 +32,9 @@ const HeaderData = {
   ],
   sociallist: [
     {
-      icon: "fa fa-facebook",
-      link: "#",
-    },
-    {
-      icon: "fa fa-twitter",
-      link: "#",
-    },
-    {
       icon: "fa fa-instagram",
-      link: "#",
-    },
-    {
-      icon: "fa fa-dribbble",
-      link: "#",
-    },
+      link: "https://www.instagram.com/baggermann_erfurt/",
+    }
   ],
 };
 

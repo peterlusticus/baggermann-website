@@ -15,17 +15,9 @@ const HeroData = {
   bgimg: bgimg,
   social: [
     {
-      title: "facebook",
-      link: "#",
-    },
-    {
-      title: "twitter",
-      link: "#",
-    },
-    {
-      title: "instagram",
-      link: "#",
-    },
+      icon: "fa fa-instagram",
+      link: "https://www.instagram.com/baggermann_erfurt/",
+    }
   ],
 };
 const Hero = () => {

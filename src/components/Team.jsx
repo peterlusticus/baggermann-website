@@ -24,17 +24,9 @@ const TeamData = {
       position: "ui/ux designer",
       sociallist: [
         {
-          icon: "fa fa-facebook",
-          link: "#",
-        },
-        {
-          icon: "fa fa-twitter",
-          link: "#",
-        },
-        {
           icon: "fa fa-instagram",
-          link: "#",
-        },
+          link: "https://www.instagram.com/baggermann_erfurt/",
+        }
       ],
     },
     {
@@ -43,17 +35,9 @@ const TeamData = {
       position: "artical writer",
       sociallist: [
         {
-          icon: "fa fa-facebook",
-          link: "#",
-        },
-        {
-          icon: "fa fa-twitter",
-          link: "#",
-        },
-        {
           icon: "fa fa-instagram",
-          link: "#",
-        },
+          link: "https://www.instagram.com/baggermann_erfurt/",
+        }
       ],
     },
     {
@@ -62,17 +46,9 @@ const TeamData = {
       position: "product manager",
       sociallist: [
         {
-          icon: "fa fa-facebook",
-          link: "#",
-        },
-        {
-          icon: "fa fa-twitter",
-          link: "#",
-        },
-        {
           icon: "fa fa-instagram",
-          link: "#",
-        },
+          link: "https://www.instagram.com/baggermann_erfurt/",
+        }
       ],
     },
     {
@@ -81,17 +57,9 @@ const TeamData = {
       position: "ui/ux designer",
       sociallist: [
         {
-          icon: "fa fa-facebook",
-          link: "#",
-        },
-        {
-          icon: "fa fa-twitter",
-          link: "#",
-        },
-        {
           icon: "fa fa-instagram",
-          link: "#",
-        },
+          link: "https://www.instagram.com/baggermann_erfurt/",
+        }
       ],
     },
   ],

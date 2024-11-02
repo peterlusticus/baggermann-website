@@ -8,20 +8,8 @@ const FooterData = {
   copyright: "© All Rights Reserved.",
   sociallist: [
     {
-      icon: "fa fa-facebook",
-      link: "#",
-    },
-    {
-      icon: "fa fa-twitter",
-      link: "#",
-    },
-    {
       icon: "fa fa-instagram",
-      link: "#",
-    },
-    {
-      icon: "fa fa-vk",
-      link: "#",
+      link: "https://www.instagram.com/baggermann_erfurt/",
     },
   ],
   footernavlist: [
@@ -61,7 +49,7 @@ const FooterData = {
     },
     {
       title: "Adresse",
-      info: "Anton Lucius Straße 20, 99085 Erfurt",
+      info: "Eichendorfstraße 3, 99096 Erfurt",
     },
   ],
 };

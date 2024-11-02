@@ -30,7 +30,6 @@ const Index = () => {
         <Breadcrumb title={"Services"} pgtitle={"Meine Services"} />
         <Services2 />
         <Video />
-        <Pricingtable />
         <Accordians />
         <Brand />
         <Footer />
