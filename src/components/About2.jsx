@@ -72,7 +72,7 @@ const About2 = () => {
             </div>
             <div class="xl:col-span-5 lg:col-span-6 md:col-span-12 sm:col-span-12">
               <div class="about2-short-brief z-[1] relative sm:ml-0 xl:ml-[60px] lg:ml-[60px]">
-                <Parallax translateX={["-50px", "0px"]}>
+                <Parallax translateX={["-20px", "30px"]}>
                   <h2
                     class="text-uppercase text-[50px] font-semibold mb-0 xl:w-full xl:-ml-[150px] md:w-[85%] md:ml-0 sm:ml-[8px] sm:w-[80%] sm:text-[32px] sm:leading-[48px]"
                     dangerouslySetInnerHTML={{ __html: AboutData.bigtitle }}
