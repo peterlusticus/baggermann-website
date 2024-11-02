@@ -20,7 +20,7 @@ const AboutData = {
   brief:
     " Eine geringe Durchfahrtshöhe von 150cm und ein schmales Tor von 100cm sind kein Problem für meinen Bagger.",
   btntext: "Mehr erfahren",
-  btnlink: "#",
+  btnlink: "services",
 };
 
 const About = () => {
