@@ -44,7 +44,7 @@ const About = () => {
               <Parallax translateY={["-70px", "0px"]}>
                 <div className="about-short-brief ml-[60px]">
                   <h2
-                    className="uppercase font-semibold text-[58px] xl:-ml-[150px] mb-[70px] md:mx-0 md:mt-0 md:mb-[30px] sm:mx-0 sm:mt-0 sm:mb-[30px] sm:text-[40px]"
+                    className="uppercase font-semibold text-[58px] xl:-ml-[50px] mb-[70px] md:mx-0 md:mt-0 md:mb-[30px] sm:mx-0 sm:mt-28 sm:mb-[30px] sm:text-[40px]"
                     dangerouslySetInnerHTML={{ __html: AboutData.bigtitle }}
                   ></h2>
                   <p className="mb-[50px]">{AboutData.brief}</p>

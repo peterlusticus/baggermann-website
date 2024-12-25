@@ -7,14 +7,17 @@ const BreadcrumbData = {
   brief: "Rufen Sie mich an und wir besprechen zeitnah und vor Ort Ihr Vorhaben. Gerne erstelle ich Ihnen ein dazugehöriges Angebot."
 };
 const Breadcrumb = ({ title, pgtitle, brief }) => {
+  const position1 = title === "About" ? "-mt-[200px]" : ""
+  const position2 = title === "About" ? "pt-[350px]" : ""
+
   return (
     <>
       <div
         id="khalif-breadcrumb-wrape"
-        className="khalif-breadcrumb-wrape breadcrumb-bg text-center flex items-center bg-center bg-cover min-h-[768px] bg-[#111111] bg-no-repeat z-[1]"
+        className={"khalif-breadcrumb-wrape breadcrumb-bg text-center flex items-center bg-center bg-cover min-h-[758px] bg-[#111111] bg-no-repeat z-[1] " + position1}
         style={{ backgroundImage: `url(${bgimg.src})` }}
       >
-        <div className="container">
+        <div className={"container " + position2}>
           <div className="grid grid-cols-12 gap-x-6">
             <div className="xl:col-start-3 xl:col-end-11 lg:col-start-3 lg:col-span-12 md:col-span-12 sm:col-span-12">
               <div className="khalif-breadcrumb-content">

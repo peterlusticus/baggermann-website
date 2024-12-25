@@ -11,7 +11,7 @@ const AboutData = {
   bigtitle:
     'Von den <span class="text-[#d8c49f]">Alpen</span> nach <span class="text-[#d8c49f]">Thüringen</span>. ',
   brief:
-    "Mit jahrelanger Erfahrung im Bau und Unterhalt von Ski- und Mountainbike-Strecken in den Schweizer Alpen bringe ich mein Know-how in den nachhaltigen Wegebau in Thüringen ein. Als passionierter Baggerfahrer setze ich Ihre Projekte präzise und zuverlässig um.",
+    "Mit jahrelanger Erfahrung im Bau und Unterhalt von Mountainbike-Anlagen und Wanderwegen in den Schweizer Alpen bringe ich mein Know-how in den nachhaltigen Wegebau in Thüringen ein. Als passionierter Baggerfahrer setze ich Ihre Projekte präzise und zuverlässig um.",
   title: "khalif",
   title2: "",
   year: "",
@@ -25,7 +25,7 @@ const AboutData = {
     {
       title: "Die Schweizer Jahre",
       brief:
-        "Mehrjährige Erfahrung im Bau und Unterhalt von anspruchsvollen Ski- und Mountainbike-Strecken in den Schweizer Alpen.",
+        "Mehrjährige Erfahrung im Bau und Unterhalt von anspruchsvollen Mountainbike-Anlagen und Wanderwegen in den Schweizer Alpen.",
     },
     {
       title: "Spezialist für Erdarbeiten",
@@ -40,14 +40,14 @@ const AboutData = {
     {
       title: "Expertise im Wegebau",
       brief:
-        "Jahrelange Erfahrung im Bau und der Pflege von anspruchsvollen Outdoor-Strecken.",
+        "Jahrelange Erfahrung im Bau und der Pflege von Wanderwegen und Mountainbike-Anlagen.",
     },
   ],
 };
 const About2 = () => {
   return (
     <>
-      <div class="khalif-about2-wrape pt-[100px] -mb-[300px]">
+      <div class="khalif-about2-wrape mt-[100px] -mb-[300px]">
         <div class="container">
           <div class="grid grid-cols-12 gap-x-6">
             <div class="xl:col-span-7 lg:col-span-6 md:col-span-12 sm:col-span-12">
