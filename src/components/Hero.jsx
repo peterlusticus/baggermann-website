@@ -7,7 +7,7 @@ import bgimg from "../../public/img/hero/1.jpg";
 
 const HeroData = {
   title: "BAGGERMANN",
-  title2: "<h1>wo ein <span class='text-[#d8c49f]'> bagger </span><br>ist, ist auch  <br> ein <span class='text-[#d8c49f]'> weg </span></h1>",
+  title2: "<h1>wo ein <span class='text-[#edb350]'> bagger </span><br>ist, ist auch  <br> ein <span class='text-[#edb350]'> weg </span></h1>",
   brief:
     "Sie benötigen einen erfahrenen Partner für Ihre Erdarbeiten? Ich biete Ihnen flexible Lösungen für Projekte jeder Größe. Mit meinem Spezialequipment meistere ich auch schwierige Geländebedingungen. Ob Privatgarten oder Gewerbeprojekt – ich setze Ihre Vorstellungen präzise um.",
   btntext: "Call me",
@@ -35,7 +35,7 @@ const Hero = () => {
                   {HeroData.social.map((item, i) => (
                     <li className="inline-block m-0 group" key={i}>
                       <Link
-                        className="text-xl text-white capitalize block pr-[50px] font-jost relative after:content-[''] after:absolute after:w-[30px] after:right-[10px] after:top-2/4 after:translate-y-[50%] after:bg-white after:h-[1px] group-hover:text-[#d8c49f]"
+                        className="text-xl text-white capitalize block pr-[50px] font-jost relative after:content-[''] after:absolute after:w-[30px] after:right-[10px] after:top-2/4 after:translate-y-[50%] after:bg-white after:h-[1px] group-hover:text-[#edb350]"
                         href={item.link}
                       >
                         {item.title}

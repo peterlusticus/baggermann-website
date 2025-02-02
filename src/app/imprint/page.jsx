@@ -1,25 +1,17 @@
 "use client";
 import { useEffect } from "react";
-import About from "@/components/About";
-import Awards from "@/components/Awards";
-import Blog from "@/components/Blog";
-import Brand from "@/components/Brand";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import Hero from "@/components/Hero";
-import Portfolio from "@/components/Portfolio";
 import Preloader from "@/components/Preloader";
-import Progress from "@/components/Progress";
 import ProgressScroll from "@/components/ProgressScroll";
-import Services from "@/components/Services";
 import Switcher from "@/components/Switcher";
-import Testimonial from "@/components/Testimonial";
-import Video from "@/components/Video";
 import { ParallaxProvider } from "react-scroll-parallax";
 import AnimatedCursor from "react-animated-cursor";
 import AOS from "aos";
+import Breadcrumb from "@/components/Breadcrumb";
+import Contacts from "@/components/Contacts";
 import Imprint from "@/components/Imprint";
-const Home = () => {
+const Index = () => {
   useEffect(() => {
     AOS.init({
       easing: "ease-out-cubic",
@@ -32,17 +24,8 @@ const Home = () => {
       <ParallaxProvider>
         <Preloader />
         <Header />
-        <Hero />
-        <Brand />
-        <About />
-        <Services />
+        <Breadcrumb title={"Imprint"} pgtitle={"Imprint"} brief={true} />
         <Imprint />
-        <Progress />
-        <Video />
-        <Portfolio isHidden={false} />
-        <Testimonial />
-        <Awards />
-        <Blog />
         <Footer />
         <ProgressScroll />
       </ParallaxProvider>
@@ -62,4 +45,4 @@ const Home = () => {
     </>
   );
 };
-export default Home;
+export default Index;

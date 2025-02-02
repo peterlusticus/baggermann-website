@@ -98,7 +98,7 @@ const Sidewdg = () => {
     <>
       <div class="xl:col-span-4 lg:col-span-4 md:col-span-5 sm:col-span-12">
         <div
-          class="single-sid-wdg mb-[50px] border-[1px] border-solid border-[#595959] p-[30px] transition-all duration-[0.3s] hover:border-[#d8c49f] sm:mt-[30px]"
+          class="single-sid-wdg mb-[50px] border-[1px] border-solid border-[#595959] p-[30px] transition-all duration-[0.3s] hover:border-[#edb350] sm:mt-[30px]"
           data-aos="fade-up"
         >
           <form class="wdg-search-form relative">
@@ -108,7 +108,7 @@ const Sidewdg = () => {
               class="h-[70px] rounded-none shadow-none bg-transparent border-[1px] border-solid border-[#595959] w-full p-5 font-antonio text-[15px] capitalize text-[#1a2b3c] focus:!ring-[none] focus:!border-[#595959] focus:border-solid focus:!outline-offset-0  focus:outline-0"
             />
             <button
-              class="submit-btn font-normal w-[70px] h-[70px] inline-block rounded-none absolute right-0 top-0 border-[1px] border-solid border-[#595959] transition-all duration-[0.3s] text-white text-[15px] tracking-[1px] leading-[25px] bg-[#070707] hover:bg-[#d8c49f]"
+              class="submit-btn font-normal w-[70px] h-[70px] inline-block rounded-none absolute right-0 top-0 border-[1px] border-solid border-[#595959] transition-all duration-[0.3s] text-white text-[15px] tracking-[1px] leading-[25px] bg-[#070707] hover:bg-[#edb350]"
               type="submit"
             >
               <i class="fa fa-search"></i>
@@ -116,7 +116,7 @@ const Sidewdg = () => {
           </form>
         </div>
         <div
-          class="single-sid-wdg mb-[50px] border-[1px] border-solid border-[#595959] p-[30px] transition-all duration-[0.3s] hover:border-[#d8c49f]"
+          class="single-sid-wdg mb-[50px] border-[1px] border-solid border-[#595959] p-[30px] transition-all duration-[0.3s] hover:border-[#edb350]"
           data-aos="fade-up"
         >
           <h3 class="sid-wdg-title font-bold text-white mb-[50px] capitalize text-2xl relative before:absolute before:left-0 before:content-[''] before:w-[70px] before:bg-white before:-bottom-7 before:h-[5px] after:absolute after:left-0 after:right-0 after:content-[''] after:h-[1px] after:bg-[#595959] after:-z-[1] after:-bottom-[26px]">
@@ -126,7 +126,7 @@ const Sidewdg = () => {
             {SidewdgData.Postarchive.map((item, i) => (
               <li class="mb-[25px] group" key={i}>
                 <Link
-                  class="text-[#757575] text-lg font-normal block capitalize font-jost group-hover:text-[#d8c49f]"
+                  class="text-[#757575] text-lg font-normal block capitalize font-jost group-hover:text-[#edb350]"
                   href={item.postlink}
                 >
                   {item.date}
@@ -137,7 +137,7 @@ const Sidewdg = () => {
           </ul>
         </div>
         <div
-          class="single-sid-wdg mb-[50px] border-[1px] border-solid border-[#595959] p-[30px] transition-all duration-[0.3s] hover:border-[#d8c49f]"
+          class="single-sid-wdg mb-[50px] border-[1px] border-solid border-[#595959] p-[30px] transition-all duration-[0.3s] hover:border-[#edb350]"
           data-aos="fade-up"
         >
           <h3 class="sid-wdg-title font-bold text-white mb-[50px] capitalize text-2xl relative before:absolute before:left-0 before:content-[''] before:w-[70px] before:bg-white before:-bottom-7 before:h-[5px] after:absolute after:left-0 after:right-0 after:content-[''] after:h-[1px] after:bg-[#595959] after:-z-[1] after:-bottom-[26px]">
@@ -146,7 +146,7 @@ const Sidewdg = () => {
           <div class="sid-wdg-post">
             {SidewdgData.Postlist.map((item, i) => (
               <div
-                class="single-wdg-post group flex items-center mb-[30px] border-b-[1px] border-solid border-b-[#595959] pb-[30px] hover:border-[#d8c49f]"
+                class="single-wdg-post group flex items-center mb-[30px] border-b-[1px] border-solid border-b-[#595959] pb-[30px] hover:border-[#edb350]"
                 key={i}
               >
                 <div class="wdg-post-img min-w-[100px] h-auto">
@@ -160,7 +160,7 @@ const Sidewdg = () => {
                 </div>
                 <div class="wdg-post-content pl-[15px]">
                   <h5 class="text-lg font-medium text-white leading-[22px]">
-                    <Link class="group-hover:text-[#d8c49f]" href={item.link}>
+                    <Link class="group-hover:text-[#edb350]" href={item.link}>
                       {item.title}
                     </Link>
                   </h5>
@@ -173,7 +173,7 @@ const Sidewdg = () => {
           </div>
         </div>
         <div
-          class="single-sid-wdg mb-[50px] border-[1px] border-solid border-[#595959] p-[30px] transition-all duration-[0.3s] hover:border-[#d8c49f]"
+          class="single-sid-wdg mb-[50px] border-[1px] border-solid border-[#595959] p-[30px] transition-all duration-[0.3s] hover:border-[#edb350]"
           data-aos="fade-up"
         >
           <h3 class="sid-wdg-title font-bold text-white mb-[50px] capitalize text-2xl relative before:absolute before:left-0 before:content-[''] before:w-[70px] before:bg-white before:-bottom-7 before:h-[5px] after:absolute after:left-0 after:right-0 after:content-[''] after:h-[1px] after:bg-[#595959] after:-z-[1] after:-bottom-[26px]">
@@ -183,7 +183,7 @@ const Sidewdg = () => {
             <div class="tagcloud">
               {SidewdgData.TagsList.map((item, i) => (
                 <a
-                  class="text-base leading-6 text-white py-[15px] px-5 border-[1px] border-solid border-[#595959] inline-block transition-all duration-[0.2s] capitalize rounded-[5px] mr-[5px] mb-[10px] mt-0 ml-0 font-jost font-semibold hover:text-white hover:bg-[#d8c49f] hover:border-[#d8c49f] hover:rounded-[10px]"
+                  class="text-base leading-6 text-white py-[15px] px-5 border-[1px] border-solid border-[#595959] inline-block transition-all duration-[0.2s] capitalize rounded-[5px] mr-[5px] mb-[10px] mt-0 ml-0 font-jost font-semibold hover:text-white hover:bg-[#edb350] hover:border-[#edb350] hover:rounded-[10px]"
                   href={item.link}
                   key={i}
                 >
@@ -194,7 +194,7 @@ const Sidewdg = () => {
           </div>
         </div>
         <div
-          class="single-sid-wdg mb-[50px] border-[1px] border-solid border-[#595959] p-[30px] transition-all duration-[0.3s] hover:border-[#d8c49f]"
+          class="single-sid-wdg mb-[50px] border-[1px] border-solid border-[#595959] p-[30px] transition-all duration-[0.3s] hover:border-[#edb350]"
           data-aos="fade-up"
         >
           <h3 class="sid-wdg-title font-bold text-white mb-[50px] capitalize text-2xl relative before:absolute before:left-0 before:content-[''] before:w-[70px] before:bg-white before:-bottom-7 before:h-[5px] after:absolute after:left-0 after:right-0 after:content-[''] after:h-[1px] after:bg-[#595959] after:-z-[1] after:-bottom-[26px]">
@@ -205,7 +205,7 @@ const Sidewdg = () => {
               {SidewdgData.MetaList.map((item, i) => (
                 <li class="group">
                   <a
-                    class="capitalize text-lg text-white transition-all duration-[0.3s] font-jost font-semibold group-hover:text-[#d8c49f]"
+                    class="capitalize text-lg text-white transition-all duration-[0.3s] font-jost font-semibold group-hover:text-[#edb350]"
                     href={item.link}
                     key={i}
                   >

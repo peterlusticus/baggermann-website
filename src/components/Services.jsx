@@ -39,7 +39,7 @@ const Services = () => {
                 key={i}
               >
                 <div
-                  className="single-services-wrape bgc-2 p-[30px] ml-6 relative transition-all duration-[0.3s] mb-[60px] hover:before:border-[#d8c49f] group"
+                  className="single-services-wrape bgc-2 p-[30px] ml-6 relative transition-all duration-[0.3s] mb-[60px] hover:before:border-[#edb350] group"
                   data-aos="fade-right"
                   data-aos-delay={item.delay}
                 >
@@ -48,7 +48,7 @@ const Services = () => {
                     translateY={["-20px", "0px"]}
                   >
                     <svg
-                      className="w-6 h-auto fill-[#595959] group-hover:fill-[#d8c49f]"
+                      className="w-6 h-auto fill-[#595959] group-hover:fill-[#edb350]"
                       height={512}
                       viewBox="0 0 32 32"
                       width={512}
@@ -65,7 +65,7 @@ const Services = () => {
                   </div>
                   <h3>
                     <Link
-                      className="block uppercase mt-[30px] mx-0 mb-5 text-[28px] group-hover:text-[#d8c49f]"
+                      className="block uppercase mt-[30px] mx-0 mb-5 text-[28px] group-hover:text-[#edb350]"
                       href={item.link}
                     >
                       {item.title}

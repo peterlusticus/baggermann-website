@@ -10,7 +10,7 @@ import aboutimg2 from "../../public/img/about/2.jpg";
 
 const AboutData = {
   bigtitle:
-    'Mit einem speziell <span class="text-[#d8c49f]">modifizierten Bagger</span> werden große <span class="text-[#d8c49f]">Projekte</span> auf kleinstem Raum <span class="text-[#d8c49f]">realisiert.</span> ',
+    'Mit einem speziell <span class="text-[#edb350]">modifizierten Bagger</span> werden große <span class="text-[#edb350]">Projekte</span> auf kleinstem Raum <span class="text-[#edb350]">realisiert.</span> ',
   title: "BAGGERMANN",
   title2: "Erfahrung",
   year: "Durchfahrtshöhe",

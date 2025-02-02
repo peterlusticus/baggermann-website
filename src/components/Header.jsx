@@ -63,11 +63,11 @@ const Header = () => {
         open={isOpen}
         onClose={handleClose}
         id="drawer-disable-body-scrolling"
-        className="fixed top-0 left-0 z-[99] h-screen p-4 overflow-y-auto transition-transform -translate-x-full !bg-white w-80"
+        className="fixed top-0 left-0 z-[99] h-screen p-4 overflow-y-auto transition-transform -translate-x-full !bg-white w-96"
       >
         <div
           id="drawer-disable-body-scrolling-label"
-          className="text-[16px] font-semibold text-gray-500 uppercase khalif-canvas-logo"
+          className="text-[16px] font-semibold text-gray-500 uppercase khalif-canvas-logo m-5"
         >
           <Link href="/">
             <Image src={HeaderData.logo2} alt="logo" />
@@ -83,18 +83,18 @@ const Header = () => {
                   key={i}
                 >
                   <Link
-                    className="text-[#111111] block text-4xl font-semibold p-[10px] transition-all duration-[0.3s] ease-linear leading-tight font-antonio capitalize group-hover:text-[#d8c49f]"
+                    className="text-[#111111] block text-4xl font-semibold p-[10px] transition-all duration-[0.3s] ease-linear leading-tight font-antonio capitalize group-hover:text-[#edb350]"
                     href={item.link}
                   >
                     {item.title}
                     {item.submenu && <i className="fa fa-angle-down"></i>}
                   </Link>
                   {item.submenu && (
-                    <ul className="sub-menu text-left bg-white border-t-[3px] border-solid border-t-[#d8c49f] shadow-[0_6px_12px_rgba(0,0,0,0.176)] left-0 right-0 opacity-0 absolute top-full transition-all duration-[0.4s] ease-out invisible z-[9] origin-top scale-y-0 group-hover:opacity-[1] group-hover:visible group-hover:scale-y-[1]">
+                    <ul className="sub-menu text-left bg-white border-t-[3px] border-solid border-t-[#edb350] shadow-[0_6px_12px_rgba(0,0,0,0.176)] left-0 right-0 opacity-0 absolute top-full transition-all duration-[0.4s] ease-out invisible z-[9] origin-top scale-y-0 group-hover:opacity-[1] group-hover:visible group-hover:scale-y-[1]">
                       {item.submenu.map((item, i) => (
                         <li className="block relative m-0" key={i}>
                           <Link
-                            className="text-[#666666] text-[15px] font-semibold m-0 py-[13px] px-5 capitalize block font-antonio hover:text-white hover:bg-[#d8c49f]"
+                            className="text-[#666666] text-[15px] font-semibold m-0 py-[13px] px-5 capitalize block font-antonio hover:text-white hover:bg-[#edb350]"
                             href={item.link}
                           >
                             {item.title}
@@ -129,10 +129,10 @@ const Header = () => {
             <div className="grid grid-cols-12 gap-x-6">
               <div className="col-span-12">
                 <div
-                  className={`khalif-main-manu-content bg-[#44444433] py-0 px-[50px] h-[100px] ${sticky ? "sticky" : ""
+                  className={`khalif-main-manu-content bg-[#44444433] py-0 px-[5px] h-[100px] ${sticky ? "sticky" : ""
                     }`}
                 >
-                  <div className="header-logo py-5 px-0 inline-block float-left">
+                  <div className="header-logo pt-2.5 px-0 inline-block float-left w-20">
                     <Link href="/">
                       <Image
                         src={HeaderData.logo}
@@ -154,7 +154,7 @@ const Header = () => {
                     <li className="m-0">
                       <Link
                         href={HeaderData.btnlink}
-                        className="magic-hover magic-hover__square text-sm font-semibold uppercase font-antonio text-white hover:text-[#d8c49f]"
+                        className="magic-hover magic-hover__square text-sm font-semibold uppercase font-antonio text-white hover:text-[#edb350]"
                       >
                         {HeaderData.btntext}
                       </Link>

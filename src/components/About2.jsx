@@ -9,7 +9,7 @@ import aboutimg4 from "../../public/img/about/4.jpg";
 import aboutimg5 from "../../public/img/about/5.png";
 const AboutData = {
   bigtitle:
-    'Von den <span class="text-[#d8c49f]">Alpen</span> nach <span class="text-[#d8c49f]">Thüringen</span>. ',
+    'Von den <span class="text-[#edb350]">Alpen</span> nach <span class="text-[#edb350]">Thüringen</span>. ',
   brief:
     "Mit jahrelanger Erfahrung im Bau und Unterhalt von Mountainbike-Anlagen und Wanderwegen in den Schweizer Alpen bringe ich mein Know-how in den nachhaltigen Wegebau in Thüringen ein. Als passionierter Baggerfahrer setze ich Ihre Projekte präzise und zuverlässig um.",
   title: "khalif",

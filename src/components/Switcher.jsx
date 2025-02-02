@@ -104,7 +104,7 @@ const Switcher = () => {
           </ul>
           <div
             id="hideSwitcher"
-            className="cursor-pointer mb-0 absolute w-[50px] h-[50px] text-center rounded-[50%] leading-[38px] -left-[25px] -top-[25px] text-[38px] text-[#999999] border-[1px] border-solid border-[#eeeeee] !bg-[#d8c49f]"
+            className="cursor-pointer mb-0 absolute w-[50px] h-[50px] text-center rounded-[50%] leading-[38px] -left-[25px] -top-[25px] text-[38px] text-[#999999] border-[1px] border-solid border-[#eeeeee] !bg-[#edb350]"
             onClick={() => handle2Click(1)}
           >
             &times;

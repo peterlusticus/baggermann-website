@@ -67,13 +67,13 @@ const Bloglists = () => {
                     <h4>
                       <Link
                         href={item.postlink}
-                        class="post-title group-hover:text-[#d8c49f] inline-block text-2xl font-semibold leading-10 capitalize"
+                        class="post-title group-hover:text-[#edb350] inline-block text-2xl font-semibold leading-10 capitalize"
                       >
                         {item.title}
                       </Link>
                     </h4>
                     <ul class="single-post-info list-none flex items-center justify-between border-t-[1px] border-solid border-t-[#585858] pt-5 mt-5">
-                      <li class="blog-date text-lg font-semibold m-0 text-[#888888] capitalize transition-all duration-[0.3s] hover:text-[#d8c49f] hover:cursor-pointer group">
+                      <li class="blog-date text-lg font-semibold m-0 text-[#888888] capitalize transition-all duration-[0.3s] hover:text-[#edb350] hover:cursor-pointer group">
                         {item.date}
                       </li>
                       <li class="blog-admin text-lg font-semibold m-0 text-[#888888] capitalize transition-all duration-[0.3s] hover:cursor-pointer group">
@@ -91,13 +91,13 @@ const Bloglists = () => {
 
               <div class="khalif-pagination my-[50px]">
                 <ul class="pagination flex items-center text-center">
-                  <li class="w-[60px] h-[60px] leading-[55px] rounded-[100%] border-[1px] border-solid border-[#eeeeee]  text-[#d8c49f] mr-4 hover:bg-[#d8c49f] hover:text-white transition-all duration-[0.3s] font-semibold font-antonio text-lg cursor-pointer">
+                  <li class="w-[60px] h-[60px] leading-[55px] rounded-[100%] border-[1px] border-solid border-[#eeeeee]  text-[#edb350] mr-4 hover:bg-[#edb350] hover:text-white transition-all duration-[0.3s] font-semibold font-antonio text-lg cursor-pointer">
                     <Link href="#">1</Link>
                   </li>
-                  <li class="w-[60px] h-[60px] leading-[55px] rounded-[100%] border-[1px] border-solid border-[#eeeeee]  text-[#d8c49f] mr-4 hover:bg-[#d8c49f] hover:text-white transition-all duration-[0.3s] font-semibold font-antonio text-lg cursor-pointer">
+                  <li class="w-[60px] h-[60px] leading-[55px] rounded-[100%] border-[1px] border-solid border-[#eeeeee]  text-[#edb350] mr-4 hover:bg-[#edb350] hover:text-white transition-all duration-[0.3s] font-semibold font-antonio text-lg cursor-pointer">
                     <Link href="#">2</Link>
                   </li>
-                  <li class="w-[60px] h-[60px] leading-[55px] rounded-[100%] border-[1px] border-solid border-[#eeeeee]  text-[#d8c49f] mr-4 hover:bg-[#d8c49f] hover:text-white transition-all duration-[0.3s] font-semibold font-antonio text-lg cursor-pointer">
+                  <li class="w-[60px] h-[60px] leading-[55px] rounded-[100%] border-[1px] border-solid border-[#eeeeee]  text-[#edb350] mr-4 hover:bg-[#edb350] hover:text-white transition-all duration-[0.3s] font-semibold font-antonio text-lg cursor-pointer">
                     <Link href="#">
                       <i class="fa fa-long-arrow-right"></i>
                     </Link>

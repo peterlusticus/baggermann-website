@@ -49,7 +49,7 @@ const Contacts = () => {
                   data-aos-delay={item.delay}
                   key={i}
                 >
-                  <div className="contact-info-box group text-center py-[50px] px-0 !bg-[#070707] rounded-[15px] relative overflow-hidden my-[30px] mx-0 transition-all duration-[0.3s] after:absolute after:content-[''] after:left-0 after:right-0 after:bottom-0 after:w-0 after:h-0 after:my-0 after:mx-auto after:border-l-[30px] after:border-r-[30px] after:border-b-[30px] after:border-solid after:border-x-transparent after:border-b-[#111111] hover:!bg-[#d8c49f]">
+                  <div className="contact-info-box group text-center py-[50px] px-0 !bg-[#070707] rounded-[15px] relative overflow-hidden my-[30px] mx-0 transition-all duration-[0.3s] after:absolute after:content-[''] after:left-0 after:right-0 after:bottom-0 after:w-0 after:h-0 after:my-0 after:mx-auto after:border-l-[30px] after:border-r-[30px] after:border-b-[30px] after:border-solid after:border-x-transparent after:border-b-[#111111] hover:!bg-[#edb350]">
                     <div className="contact-style-img absolute -top-[50px] -right-[50px]">
                       <Image src={item.img} alt="img" />
                     </div>

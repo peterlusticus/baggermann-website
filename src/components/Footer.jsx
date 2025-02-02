@@ -61,11 +61,11 @@ const Footer = () => {
         <div className="khalif-footer-style-shape">
           <Parallax
             translateY={["-50px", "0px"]}
-            className="footer-shape-1 absolute h-[150px] rounded-[50%] bg-[#d8c49f] top-[18%] w-[150px] right-[10%] opacity-[0.10]"
+            className="footer-shape-1 absolute h-[150px] rounded-[50%] bg-[#edb350] top-[18%] w-[150px] right-[10%] opacity-[0.10]"
           ></Parallax>
           <Parallax
             translateX={["-70px", "0px"]}
-            className="footer-shape-2 absolute w-[220px] h-[220px] rounded-[50%] bg-[#d8c49f] top-[35%] right-[4%] opacity-[0.40]"
+            className="footer-shape-2 absolute w-[220px] h-[220px] rounded-[50%] bg-[#edb350] top-[35%] right-[4%] opacity-[0.40]"
           ></Parallax>
         </div>
         <div className="container">
@@ -74,7 +74,7 @@ const Footer = () => {
               <div className="khalif-footer-single-widget mb-[50px]">
                 <div className="khalif-subscribe-content">
                   <h2
-                    className="text-[90px] font-bold uppercase mb-[30px] relative z-[1] md:text-[60px] after:content-[''] after:absolute after:right-0 after:bottom-0 after:bg-[#d8c49f] after:-z-[1] after:left-[26%] after:-top-[120px] after:w-[84px] after:h-[240px] after:skew-x-[-15deg] after:xl:h-[225px] after:lg:h-[225px] after:md:h-[225px] after:sm:h-[263px]"
+                    className="text-[90px] font-bold uppercase mb-[30px] relative z-[1] md:text-[60px] after:content-[''] after:absolute after:right-0 after:bottom-0 after:bg-[#edb350] after:-z-[1] after:left-[26%] after:-top-[120px] after:w-[84px] after:h-[240px] after:skew-x-[-15deg] after:xl:h-[225px] after:lg:h-[225px] after:md:h-[225px] after:sm:h-[263px]"
                     dangerouslySetInnerHTML={{ __html: FooterData.newstitle }}
                   ></h2>
                   <form className="khalif-subscribe-form relative" action="#">
@@ -116,7 +116,7 @@ const Footer = () => {
                         className="mb-10 text-sm font-normal text-[#e1e1e1] font-jost"
                         key={i}
                       >
-                        <span className="block font-semibold capitalize text-white relative mb-1 pl-2 before:content-['-'] before:absolute before:left-0 before:top-0 before:bottom-0 before:text-[#d8c49f]">
+                        <span className="block font-semibold capitalize text-white relative mb-1 pl-2 before:content-['-'] before:absolute before:left-0 before:top-0 before:bottom-0 before:text-[#edb350]">
                           {item.title}
                         </span>
                         {item.info}
@@ -135,6 +135,8 @@ const Footer = () => {
                 <div className="khalif-copyright-content py-10 border-t-[1px] border-solid border-[#595959]">
                   <div className="footer-copyright inline-block capitalize">
                     <p>{FooterData.copyright}</p>
+                    <br />
+                    <a className="font-jost text-white text-[18px] hover:text-[#edb350]" href="/imprint">Impressum</a>
                   </div>
                   <ul className="footer-social float-right list-none">
                     {FooterData.sociallist.map((item, i) => (
@@ -143,11 +145,11 @@ const Footer = () => {
                         key={i}
                       >
                         <Link
-                          className="text-white text-[18px] hover:text-[#d8c49f]"
+                          className="text-white text-[18px] hover:text-[#edb350]"
                           href={item.link}
                         >
                           <i
-                            className={`${item.icon} group-hover:bg-[#111111] group-hover:text-[#d8c49f] text-[18px] w-[50px] h-[50px] text-center !leading-[50px] border-[1px] border-solid border-[#595959] rounded-[50%] text-white`}
+                            className={`${item.icon} group-hover:bg-[#111111] group-hover:text-[#edb350] text-[18px] w-[50px] h-[50px] text-center !leading-[50px] border-[1px] border-solid border-[#595959] rounded-[50%] text-white`}
                           ></i>
                         </Link>
                       </li>
