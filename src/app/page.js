@@ -36,7 +36,6 @@ const Home = () => {
         <Brand />
         <About />
         <Services />
-        <Imprint />
         <Progress />
         <Video />
         <Portfolio isHidden={false} />
